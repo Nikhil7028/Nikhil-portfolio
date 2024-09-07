@@ -1,0 +1,114 @@
+/* Apply the style to image  */
+#baner-img {
+    background: url('/img/Slide10.JPGc') no-repeat center center/cover;
+    display: inline;
+
+    float: right;
+    padding-top: 19px;
+    border-top:yellow;
+    padding-right: 25%;
+    border-color: brown;
+    position: relative;
+}
+
+/* Link color and hover effect */
+.navbar-nav .nav-link {
+    color: white; /* Set link color to white */
+    /* margin-right: 20%; Add space between links */
+    font-size: x-large;
+    float: right;
+}
+.navbar-nav .nav-link:hover {
+    color: yellow; /* Change color to yellow on hover */
+    background-color: navy;
+}
+
+/* Zoom the image */
+.zoom-container {
+    overflow: hidden;
+    position: relative;
+  }
+  .zoom-container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both zoom and shadow */
+  }
+  .zoom-container:hover img {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+
+  /* Word animation */
+  .typing-container {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden; /* Ensures text is hidden until animation */
+    border-right: 3px solid black; /* Cursor effect */
+    animation: typing 12s steps(30, end) infinite, blink-caret 1s step-end infinite;
+    width: 0; /* Start with zero width */
+  }
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 20%; }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+
+/* Banner title */
+  .baner-title{
+    /* border-style: dotted; */
+    width: 30%;
+    margin-top: 11%;
+    margin-left: 13%;
+    float: inline-start;
+  }
+  
+  /* leetcode boarder */
+  .leetcode{
+    padding-top: 5%;
+    padding-right: 5%;
+    float: right;
+  }
+
+  .leetcode .box{
+    border-style: solid;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  #about-me{
+    padding-top: 40%;
+
+  }
+
+
+  /* style to about me */
+  .about-section {
+    background-color: #6ed2eb;
+    padding: 60px 0;
+}
+.profile-pic {
+    max-width: 200px;
+    border-radius: 10%;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-list li {
+    background-color: #332730;
+    color: #ffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Project */
+.container2{
+  background-color: pink;
+}
