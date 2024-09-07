@@ -14,6 +14,7 @@
 /* Link color and hover effect */
 .navbar-nav .nav-link {
     color: white; /* Set link color to white */
+    /* margin-right: 20%; Add space between links */
     font-size: x-large;
     float: right;
 }
