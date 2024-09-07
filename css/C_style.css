@@ -13,14 +13,12 @@
 
 /* Link color and hover effect */
 .navbar-nav .nav-link {
-    color: white; /* Set link color to white */
-    /* margin-right: 20%; Add space between links */
+    color: rgb(21, 20, 20);
     font-size: x-large;
-    float: right;
 }
 .navbar-nav .nav-link:hover {
     color: yellow; /* Change color to yellow on hover */
-    background-color: navy;
+    background-color: rgb(242, 240, 255);
 }
 
 /* Zoom the image */
