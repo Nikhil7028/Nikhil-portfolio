@@ -18,7 +18,7 @@
 }
 .navbar-nav .nav-link:hover {
     color: yellow; /* Change color to yellow on hover */
-    background-color: rgb(242, 240, 255);
+    background-color: rgb(91, 70, 225);
 }
 
 /* Zoom the image */
@@ -109,4 +109,9 @@
 /* Project */
 .container2{
   background-color: pink;
+}
+
+/* project style */
+.pro{
+  background-color: #d9eeee;
 }
