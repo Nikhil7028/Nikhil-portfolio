@@ -85,8 +85,11 @@
 
   /* style to about me */
   .about-section {
-    background-color: #6ed2eb;
-    padding: 60px 0;
+    background-color: #bbe5f0;
+    padding: 60px;
+    font-size: 19px;
+    color: black;
+
 }
 .profile-pic {
     max-width: 200px;
